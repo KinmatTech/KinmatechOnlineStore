@@ -8,12 +8,12 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    background-color: rgb(134, 117, 95);
+    background-color:#000;
 }
 
 .logo{
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: none;
     color: white;
     padding-left: 40px;
 }
@@ -30,13 +30,13 @@
 
 .header-links ul li a{
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: none;
     color: white;
     padding: 0 15px;
 }
 
 .header-links ul li a:hover{
-    color:#FF0FF0;
+    color:greenyellow;
     
 }
 
@@ -50,8 +50,8 @@
     font-size: 18px;
     font-weight: 700;
     vertical-align: super;
-    color: #fffc3c;
-    background-color: chocolate;
+    color: #fff;
+    background-color:#000;
     border-radius: 50%;
     width: 20px;
     height: 20px;

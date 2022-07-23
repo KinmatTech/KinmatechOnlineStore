@@ -1,7 +1,7 @@
 .cart-items{
     margin: 30px auto;
     width: 50%;
-    background-color: orange;
+    background-color:#FFF;
     border: 2px solid black;
     border-radius: 5px;
 }
@@ -102,7 +102,7 @@
     height: 30px;
     width: 100px;
     font-size: 18px;
-    color: white;
+    color: black;
     cursor: pointer;
 }
 .clear-cart-button:hover{

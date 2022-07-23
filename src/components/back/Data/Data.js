@@ -14,7 +14,7 @@ const data = {
         }, 
         {
             id: "3",
-            name: "Wireless Bluetooth Speaker Stand",
+            name: "Wireless Bluetooth Stand",
             price: 708,
             image: "./pics/Wireless-Bluetooth-Speaker-Stand.jpg"
         }, 
@@ -32,7 +32,7 @@ const data = {
         }, 
         {
             id: "6",
-            name: "Bright Stone Adjustable Tablet Stand",
+            name: "Bright Adjustable Tablet",
             price: 409,
             image: "./pics/Bright-Stone-Adjustable-Tablet-Stand.jpg"
         }, 
@@ -68,7 +68,7 @@ const data = {
         }, 
         {
             id: "12",
-            name: "Portable Adjustable Camera Stand Holder",
+            name: "Portable Adjustable Camera",
             price: 108,
             image: "./pics/Portable-Ajustable-Camera-Stand-Holder.jpg"
         },

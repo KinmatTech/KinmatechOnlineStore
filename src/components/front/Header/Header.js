@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { a } from 'react-router-dom';
 import './Header.css';
 
 function Header({cartItems}) {
@@ -7,31 +7,31 @@ function Header({cartItems}) {
     <header className='header'>
         <div>
             <h1>
-                <Link to="/" className="logo">Electronic Shop</Link>
+                <a href="/" className="logo"><img src="./logo.png"/></a>
             </h1>
           </div>
           <div className='header-links'>
               <ul>
                   <li>
-                      <Link to='/'>Home</Link>
+                      <a href='/'>Home</a>
                   </li>
               </ul>
               <ul>
                   <li>
-                      <Link to='./CustomerService'>Customer Service</Link>
+                      <a href='./customerservice'>Customer Service</a>
                   </li>
               </ul>
                <ul>
                   <li>
-                      <Link to='./signup'>Signup</Link>
+                      <a href='./signup'>Signup</a>
                   </li>
               </ul>
                <ul>
                   <li>
-                      <Link to='./cart' className='cart'>                          
+                      <a href='./cart' className='cart'>                          
                           <i class='fas fa-shopping-cart' />
                           <span className='cart-length'>{ cartItems.length === 0 ? "" : cartItems.length }</span>
-                      </Link>
+                      </a>
                   </li>
               </ul>
           </div>

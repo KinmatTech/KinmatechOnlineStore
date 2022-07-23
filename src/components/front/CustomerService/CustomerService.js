@@ -1,8 +1,9 @@
 import React from 'react'
+import './CustomerService.css'
 
 function CustomerService() {
   return (
-    <div>Customer Service Area.</div>
+    <div className='customerservice'>Customer Service Area.</div>
   )
 }
 
