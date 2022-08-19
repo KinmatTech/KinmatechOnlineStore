@@ -1,38 +1,277 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#google-pay-button {
+  width: 150px;
+  height: 75px;
+  padding: 10px;
+  margin: -20px 0 0 120px;
+}
+#phone-pay-button {
+  width: 15%;
+  height: 45px;
+  padding: -10px;
+  margin: -60px 0 0px 0;
+  background-color: pink;
+  opacity: 5px;
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  font-family: Georgia, Arial, sans-serif;
+  color: rgb(54, 1, 46);
+  margin: 5px 1000px 0 0;
+}
+h6 {
+  font-family: Georgia, Arial, sans-serif;
+  color: rgb(2, 2, 2);
+  margin: 25px 1000px 0 0;
+  font-size: 20px;
+}
+.h6 {
+  font-family: Georgia, Arial, sans-serif;
+  color: rgb(2, 2, 2);
+  margin: -510px -200px 0 0;
+  font-size: 20px;
+}
+.h5 {
+  font-family: Georgia, Arial, sans-serif;
+  color: rgb(253, 253, 253);
+  margin: 25px 1000px 0 0;
+  font-size: 20px;
+}
+hr {
+  width: 100%;
+  text-align: left;
+  margin-left: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cards {
+  font-family: Georgia, Arial, sans-serif;
+  background-color: whitesmoke;
+  width: 40%;
+  margin: 10px 1000px 0 0;
+  border-radius: 10px;
+}
+.cards1 {
+  margin: 10px 280px 0 0;
+}
+.cards2 {
+  margin: -30px 20px 0 0;
+  color: rgb(32, 1, 44);
+}
+
+form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+::placeholder {
+  color: rgb(70, 68, 68);
+  font-family: "Georgia", Times, serif;
+  font-size: 12px;
+  letter-spacing: 0px;
+}
+
+.first {
+  font-family: "Georgia", Times, serif;
+  color: rgb(2, 2, 2);
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0 1000px 0 0;
+}
+.last1 {
+  font-family: "Georgia", Times, serif;
+  color: rgb(2, 2, 2);
+  font-weight: 500;
+  font-size: 15px;
+  margin: -51px 0 0 -300px;
+}
+.email {
+  font-family: "Georgia", Times, serif;
+  color: rgb(2, 2, 2);
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0 1000px 0 0;
+}
+.pwd {
+  font-family: "Georgia", Times, serif;
+  color: rgb(2, 2, 2);
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0 1000px 0 0;
+}
+.namecard {
+  font-family: "Georgia", Times, serif;
+  color: rgb(2, 2, 2);
+  font-weight: 500;
+  font-size: 15px;
+  margin: 30px 60px 0 350px;
+}
+.cardno {
+  font-family: "Georgia", Times, serif;
+  color: rgb(2, 2, 2);
+  font-weight: 500;
+  font-size: 15px;
+  margin: 30px 60px 0 310px;
+}
+.cvv {
+  font-family: "Georgia", Times, serif;
+  color: rgb(2, 2, 2);
+  font-weight: 300;
+  font-size: 12px;
+  margin: -50px 60px 0 567px;
+}
+.valid {
+  font-family: "Georgia", Times, serif;
+  color: rgb(2, 2, 2);
+  font-weight: 500;
+  font-size: 15px;
+  margin: 30px 60px 0 310px;
+}
+.name {
+  border: solid 1px rgb(228, 228, 230);
+  border-radius: 6px;
+  width: 18%;
+  padding: 6px 12px;
+  outline: none;
+  margin: 0 0 0 160px;
+  height: 28px;
+}
+.valid1 {
+  border: solid 1px rgb(228, 228, 230);
+  border-radius: 6px;
+  width: 18%;
+  padding: 6px 12px;
+  outline: none;
+  margin: 0 0 0 407px;
+  height: 28px;
+}
+.cvv1 {
+  border: solid 1px rgb(228, 228, 230);
+  border-radius: 6px;
+  width: 16%;
+  padding: 6px 12px;
+  outline: none;
+  margin: 0 0 0 567px;
+  height: 28px;
+}
+.namecard1 {
+  border: solid 1px rgb(228, 228, 230);
+  border-radius: 6px;
+  width: 38%;
+  padding: 6px 12px;
+  outline: none;
+  margin: 0 0 0 447px;
+  height: 28px;
+}
+.cardno1 {
+  border: solid 1px rgb(228, 228, 230);
+  border-radius: 6px;
+  width: 38%;
+  padding: 6px 12px;
+  outline: none;
+  margin: 0 0 0 447px;
+  height: 28px;
+}
+.last {
+  border: solid 1px rgb(228, 228, 230);
+  border-radius: 6px;
+  width: 18%;
+  padding: 6px 12px;
+  outline: none;
+  margin: 0 1000px 0 0;
+  height: 28px;
+}
+.email1 {
+  border: solid 1px rgb(228, 228, 230);
+  border-radius: 6px;
+  width: 38%;
+  padding: 6px 12px;
+  outline: none;
+  margin: 0 1000px 0 0;
+  height: 28px;
+}
+.pwd1 {
+  border: solid 1px rgb(228, 228, 230);
+  border-radius: 6px;
+  width: 38%;
+  padding: 6px 12px;
+  outline: none;
+  margin: 0 1000px 0 0;
+  height: 28px;
+}
+
+.button {
+  height: 42px;
+  width: 20%;
+  margin: 100px 0 0 500px;
+  border-radius: 6px;
+  border: none;
   color: white;
+  background: linear-gradient(to left bottom, #000046, #5b86e5);
+  cursor: pointer;
+}
+.header {
+  overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+.overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  overflow: hidden;
+  opacity: 0;
+  position: fixed;
+  z-index: 999;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 30;
+  overflow: hidden;
+}
+.popup {
+  margin: 80px auto;
+  padding: 20px;
+  background-color:pink;
+  background-size: cover;
+  border-radius: 20px;
+  width: 55%;
+  height: 610px;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.popup h2 {
+  margin-top: 0;
+  color: #006600;
+  font-family: Tahoma, Arial, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: rgb(248, 72, 3);
+}
+.popup .content {
+  max-height: 80%;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 700px) {
+  .popup {
+    width: 70%;
   }
 }
