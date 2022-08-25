@@ -1,0 +1,13 @@
+.signup{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color:black;
+    /*margin-top: 20px;*/
+    height: 40vh;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: start;}

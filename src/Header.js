@@ -1,8 +1,9 @@
 import React from 'react';
-//import { a } from 'react-router-dom';
 import './Header.css';
+import { a } from 'react-router-dom';
 
-function Header({}) {
+
+function Header({totalItems}) {
   return (
     <header className='header'>
         <div>
@@ -18,15 +19,25 @@ function Header({}) {
               </ul>
               <ul>
                   <li>
-                      <a href='#'>Customer Service</a>
+                      <a href='/customerservice'>Customer Service</a>
                   </li>
               </ul>
                <ul>
                   <li>
-                      <a href='#'>Signup</a>
+                      <a href='/signup'>Signup</a>
                   </li>
               </ul>
                
+              <ul>
+                  <li>
+                      <a href='/cart' className='cart'>                          
+                          <i class='fas fa-shopping-cart'></i>
+                          <span>  (View Cart) </span>
+                                                
+                      </a>
+                  </li>
+              </ul>
+
           </div>
     </header>
   )

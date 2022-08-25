@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "./Header";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Home";
@@ -6,6 +5,9 @@ import Cart from "./Cart";
 import Footer from "./Footer";
 import "./App.css";
 import { CartProvider } from "react-use-cart";
+import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from './Routes';
+
 
 function App() {
   return (
@@ -114,13 +116,21 @@ function App() {
           </div>
         </div>
       </div>
+          <Router>
+      
       <CartProvider>
-        <Header />
-        <Cart />
+      
+        <Header   />
+        <Routes>
+        <Cart  />
         <Home />
-        <Footer />
-        </CartProvider>
+       
+        </Routes>
+       </CartProvider>    
+       <Footer />
+        </Router> 
         </div>
+      
   );
 }
 export default App;
